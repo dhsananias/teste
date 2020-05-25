@@ -1,0 +1,26 @@
+{
+    "name": "diegohsananias/teste",
+    "description": "Teste para a oportunidade ofertada pela Mosyle",
+    "authors": [
+        {
+            "name": "Diego Ananias",
+            "email": "diegohsananias@gmail.com"
+        }
+    ],
+    "require": {
+        "league/route": "^4.5",
+        "laminas/laminas-diactoros": "^2.3",
+        "laminas/laminas-httphandlerrunner": "^1.1",
+        "league/container": "^3.3",
+        "laminas/laminas-servicemanager": "^3.4",
+        "laminas/laminas-config-aggregator": "^1.2",
+        "ext-pdo": "*",
+        "nesbot/carbon": "^2.34",
+      "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mosyle\\": "app/"
+        }
+    }
+}
